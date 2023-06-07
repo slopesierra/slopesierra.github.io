@@ -8,6 +8,12 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
+  
+  background: hsl(
+		var(--hue)
+		calc(var(--active) * 97%)
+		6%
+	);
 }
 
 body {
