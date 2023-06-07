@@ -164,7 +164,11 @@
         function redirectToSite() {
          window.location.href = "answer.html"; 
         }
-         </script>
+        window.onbeforeunload = function() {
+          window.location.href = "index.html"; 
+          return null;
+        };
+       </script>
       <div class="bodydrop"></div>
     </div>
   </body>
