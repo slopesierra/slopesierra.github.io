@@ -10,8 +10,9 @@ body {
   min-height: 100vh;
 }
 
-p {
+.p {
   margin: auto;
   padding:auto;
   min-height: 100vh;
+
 }
