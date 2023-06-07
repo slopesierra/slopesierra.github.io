@@ -13,7 +13,7 @@ body {
 		var(--hue)
 		calc(var(--active) * 97%)
 		6%
-	);
+	)
 }
 
 body {
