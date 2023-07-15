@@ -274,7 +274,9 @@ button svg {
 }
 
 .run {
+	padding: 130px;
+	margin: 100px;
 	display: grid;
 	place-items: center;
-	
+
 }
