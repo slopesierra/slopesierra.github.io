@@ -5,10 +5,16 @@
 	margin: auto;
 	padding: 50px auto;
 	border-color: aliceblue;
-
+	border-radius: 9px;
+	
 }
 
+text {
+	font-style: system-ui;
+	font-size: large;
+	font-color: black;
 
+}
 
 *,
 *:after,
@@ -30,8 +36,8 @@ body {
 	);
 	display: grid;
 	place-items: center;
-	/* messing around here to try and move button.*/ 
-	min-height: 50vh;
+	/* this did move the button down to adjust to the text box*/ 
+	min-height: 75vh;
 	font-family: system-ui, sans-serif;
 	transition: background var(--transition);
 	overflow: hidden;
