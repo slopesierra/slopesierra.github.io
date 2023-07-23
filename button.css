@@ -1,9 +1,10 @@
 .box {
 	width: 425px;
 	height: 150px;
+	background-color: blueviolet;
 	margin: auto;
 	padding: 50px auto;
-	background-color: blueviolet;
+	border-color: aliceblue;
 
 }
 
@@ -29,7 +30,8 @@ body {
 	);
 	display: grid;
 	place-items: center;
-	min-height: 100vh;
+	/* messing around here to try and move button.*/ 
+	min-height: 50vh;
 	font-family: system-ui, sans-serif;
 	transition: background var(--transition);
 	overflow: hidden;
