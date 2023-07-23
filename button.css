@@ -1,3 +1,14 @@
+.box {
+	width: 425px;
+	height: 150px;
+	margin: auto;
+	padding: 50px auto;
+	background-color: blueviolet;
+
+}
+
+
+
 *,
 *:after,
 *:before {
