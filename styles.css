@@ -1,3 +1,20 @@
+.box {
+	width: 475px;
+  	height: 150px;
+  	background-color: rgb(255, 255, 255) transparent;
+  	margin: 20px auto;
+  	box-shadow: 0 0 3px 3px thistle;
+  	border-radius: 9px;
+}
+
+text {
+	font-style: system-ui;
+	font-size: 200px;
+	font-color: white;
+	text-align: center;
+}
+
+
 svg {
   width: 25vmin;
   aspect-ratio: 1;

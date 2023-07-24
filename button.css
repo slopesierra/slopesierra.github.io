@@ -1,18 +1,4 @@
-.box {
-	width: 425px;
-  	height: 150px;
-  	background-color: blueviolet transparent;
-  	margin: 20px auto;
-  	box-shadow: 0 0 3px 3px thistle;
-  	border-radius: 9px;
-}
 
-text {
-	font-style: system-ui;
-	font-size: larger;
-	font-color: black;
-	text-align: center;
-}
 
 *,
 *:after,
