@@ -13,7 +13,7 @@ document.getElementById('yesBtn').addEventListener('click', function() {
       .then(data => {
         const gifUrl = data.data.image_original_url;
         const img = document.createElement('img');
-        img.src = gifUrl;
+        img.src = https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW9ldWtiamY2b21qdWZsNHFpd2Q5OG4xMnlwMjNndTl5aGZtbjQ3dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HlZpXqgejdpUrwroHL/giphy.gif;
         img.alt = 'Sassy GIF';
         const responseContainer = document.getElementById('response');
         responseContainer.innerHTML = '';
